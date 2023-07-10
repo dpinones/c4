@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for c4-server on 2023-04-26T21:15:03+08:00
+# fly.toml app configuration file generated for c4-server-pinones on 2023-07-10T06:40:41-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "c4-server"
+app = "c4-server-pinones"
 primary_region = "sin"
 kill_signal = "SIGINT"
 kill_timeout = "5s"

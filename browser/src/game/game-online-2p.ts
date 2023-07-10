@@ -27,7 +27,7 @@ const C4_SERVER_ENDPOINT =
   import.meta.env.MODE === 'production'
     ? import.meta.env.C4_SERVER_ENDPOINT
       ? import.meta.env.C4_SERVER_ENDPOINT
-      : `wss://c4-server.fly.dev/`
+      : `wss://c4-server-pinones.fly.dev/`
     : `ws://${location.hostname}:8080`
 
 export class GameOnline2p extends GameBase {
