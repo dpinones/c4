@@ -28,26 +28,7 @@
     </section>
 
     <dialog class="mode-chooser">
-      <h1>c4 - Connect Four</h1>
-      <h2>How to play?</h2>
-      <p>Connect Four is a two-player game.</p>
-      <p>
-        Taking turn, each player drops a coloured piece to one of the 7-columns
-        of the board. The piece will then travel down to the next empty row in
-        that column.
-      </p>
-      <p>
-        The first player to form a connection of four pieces horizontally,
-        vertically, or diagonally wins the game. If the board is completely
-        filled but no one has won, the game is a draw.
-      </p>
-      <p>
-        For a more detailed explanation, you can refer to
-        <a href="https://en.wikipedia.org/wiki/Connect_Four" target="_blank"
-          >Connect Four article on Wikipedia</a
-        >.
-      </p>
-      <h2>Choose playing mode:</h2>
+      <h1>Connect 4 Stark</h1>
       <form method="dialog" class="mode-chooser-form">
         <ul class="mode-chooser-list">
           <li>
@@ -60,29 +41,7 @@
                 checked
                 autofocus
               />
-              Offline: Human player vs AI player</label
-            >
-          </li>
-          <li>
-            <label
-              ><input
-                class="mode-chooser-input"
-                type="radio"
-                name="mode"
-                value="offline-human"
-              />
-              Offline: Human player vs human player</label
-            >
-          </li>
-          <li>
-            <label
-              ><input
-                class="mode-chooser-input"
-                type="radio"
-                name="mode"
-                value="ai-vs-ai"
-              />
-              Spectator: AI player vs AI player</label
+              Play with Mrs. AI</label
             >
           </li>
           <li>
@@ -93,7 +52,7 @@
                 name="mode"
                 value="online-human"
               />
-              Online: Human player vs human player</label
+              Play with a friend</label
             >
           </li>
         </ul>
